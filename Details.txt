@@ -1,0 +1,182 @@
+1.symptoms:Fever &Headache&Stomache
+  Disease:Influenza(flu)adults 
+  Tablets:Rapivals,Relenza,Tamiflu
+  Home Remedy:Tea,Lemon,Honey
+  Doctor:Dr.S.V.Jain
+
+call Add_tablets(1,'Influenza(flu)adults ','Rapivals,Relenza,Tamiflu','Tea,Lemon,Honey','Dr.S.V.Jain')
+
+
+2.symptom:Stomachache&Nausea&Diarrhea
+ Disease:Appendicities
+ Tablets:Zosyn,Invanz,Maxipime
+ Home Remedy:Fenugreek seeds,Cucumber,Beet root
+ Doctor:Dr.Veeresh
+
+call Add_tablets(2,'Appendicities','Zosyn,Invanz,Maxipime','Fenugreek seeds,Cucumber,Beet root','Dr.Veeresh');
+
+3.symptom:Fatigue&Headche&Cold
+ Disease:Diverticulities
+ Tablets:Moxifloxacin,Ciprofloxacin plFever &Headache&Stomacheus
+ Home Remedy:papaya,bran,milk
+ Doctor:Dr.Kavitha
+
+call Add_tablets(3,'Common cold','dcold,advil,tylenol','papaya,bran,milk','Dr.Kavitha');
+
+4.symptoms:Fever&Headache&Cough
+ Disease:Common cold
+ Tablets:dcold,advil,tylenol
+ Home Remedy:ginger,honey
+ Doctor:Dr.Hanumesh shetty
+
+call Add_tablets(4,'Common cold','dcold,advil,tylenol','ginger,honey','Dr.Hanumesh shetty');
+
+
+5.symptoms:Fever&Headache&Nausea
+ Disease:Viral pneumonia
+ Tablets:Tamiflue,Relenza,Rapivals
+Home Remedy:drink plenty of fluids
+ Doctor:Dr.Preeti
+
+call Add_tablets(5,'Viral pneumonia','Tamiflue,Relenza,Rapivals','drink plenty of fluids','Dr.Preeti');
+
+
+6.symptoms: Bloating&Stomachache&Diarrhea
+ Disease:Irritable bowel
+ Tablets:Eluxadoline,Rifaximin,Linaclotide
+ Home Remedy:Yogurt,Psyllium husks,Isabgol
+ Doctor:Dr.Sana
+
+
+call Add_tablets(6,'Irritable bowel','Eluxadoline,Rifaximin,Linaclotide','Yogurt,Psyllium husks,Isabgol','Dr.Sana');
+
+
+7.symptoms:Muscle cramps&Stomachache&cold 
+ Disease:Appendicities
+ Tablets:Zosyn,Invanz,Maxipime
+ Home Remedy:Fenugreek seeds,Cucumber,Beet root
+ Doctor:Dr.Khaja moinuddin
+
+call Add_tablets(7,'Appendicities','Zosyn,Invanz,Maxipime','Fenugreek seeds,Cucumber,Beet root','Dr.Khaja moinuddin');
+
+8.symptoms:Headache&Stomachache&cough
+ Disease:Acute Sinusities
+ Tablets:Sudafed,Tylenol
+ Home Remedy:Fenugreek seeds,water
+ Doctor:Dr.Rahguveer
+
+call Add_tablets(8,'Acute Sinusities','Sudafed,Tylenol','Fenugreek seeds,water','Dr.Rahguveer')
+
+9.symptoms:Headache&Stomachache&Nausea
+ Disease:Intestinal Obsturction
+ Tablets:Phenergan,Phenadoz,Promethegam
+ Home Remedy:Lemon tea,Honey,water
+ Doctor:Dr.Susheela
+
+call Add_tablets(9,'Intestinal Obsturction','Phenergan,Phenadoz,Promethegam','Lemon tea,Honey,water','Dr.Susheela')
+
+10.symptoms:Headache&Stomache&Dizziness
+ Disease:Gas
+ Tablets:Rentidine,Eno,Zintac
+ Home Remedy:Lemon juice,Fennel seeds
+ Doctor:Dr.Balaji
+
+call Add_tablets(10,'Gas','Rentidine,Eno,Zintac','Lemon juice,Fennel seeds','Dr.Balaji')
+
+11.symptoms:Throat irritation&Cold&cough
+ Disease:Cough
+ Tablets:Mucine,vicks
+ Home Remedy:Mint and Tulsi leaves
+ Doctor:Dr.Mansoor ali
+
+call Add_tablets(11,'Cough','Mucine,vicks','Mint and Tulsi leaves','Dr.Mansoor ali')
+
+12.symptoms:Headache&cold&Dizziness
+ Disease:Migrane headache
+ Tablets:Naproxin,Acetaminopheb,Ibuprofen
+ Home Remedy:Amaranthus polygonoids,black pepper,ginglly oil and turmeric
+ Doctor:Dr.Indira
+
+call Add_tablets(12,'Migrane headache','Naproxin,Acetaminopheb,Ibuprofen','Amaranthus polygonoids,black pepper,ginglly oil and turmeric','Dr.Indira')
+
+13.symptoms:Headache&cold&Nausea
+ Disease:Acute Sinusities
+ Tablets:Sudafed,Tylenol
+ Home Remedy:Fenugreek seeds,water
+ Doctor:Dr.venkat
+
+call Add_tablets(13,'Acute Sinusities','Sudafed,Tylenol','Fenugreek seeds,water','Dr.venkat')
+
+14.symptoms:Headache&Nausea&Dizziness
+ Disease:Drug allergy
+ Tablets:Antihistamine,Benadryl
+ Home Remedy:Turmeric,Dry gourd,Black pepper,Fodder
+ Doctor:Dr.Adarsha
+
+call Add_tablets(14,'Drug allergy','Antihistamine,Benadryl','Turmeric,Dry gourd,Black pepper,Fodder','Dr.Adarsha')
+
+15.symptoms:Nausea&Bloating&Anxiety
+ Disease:Irritable bowel
+ Tablets:Eluxadoline,Rifaximin,Linaclotide
+ Home Remedy:Yogurt,Psyllium husks,Isabgol
+ Doctor:Dr.Adna 
+
+call Add_tablets(15,'Irritable bowel','Eluxadoline,Rifaximin,Linaclotide','Yogurt,Psyllium husks,Isabgol','Dr.Adna')
+
+16.symptoms:Muscle cramps&Bloating&Dizziness
+ Disease:Heat cramps
+ Tablets:Cystelia M,Follicells,Feminine
+ Home Remedy:Raggi malt,drink more water,yogurt
+ Doctor:Dr.Mohammed Farooqh Javvad Ali
+
+call Add_tablets(16,'Heat cramps','Cystelia M,Follicells,Feminine','Raggi malt,drink more water,yogurt','Dr.Mohammed Farooqh Javvad Ali')
+
+17.symptoms:Nausea&Bloating&Diarrhea
+ Disease:Drug allergy
+ Tablets:Antihistamine,Benadryl
+ Home Remedy:Turmeric,Dry gourd,Black pepper,Fodder
+ Doctor:Dr.Ajay
+
+call Add_tablets(17,'Drug allergy','Antihistamine,Benadryl','Turmeric,Dry gourd,Black pepper,Fodder','Dr.Ajay')
+
+18.symptoms:Anxiety&Fatigue&Dizziness
+ Disease:Drug allergy
+ Tablets:Antihistamine,Benadryl
+ Home Remedy:Turmeric,Dry gourd,Black pepper,Fodder
+ Doctor:Dr.Sanjay
+
+call Add_tablets(18,'Drug allergy','Antihistamine,Benadryl','Turmeric,Dry gourd,Black pepper,Fodder','Dr.Sanjay')
+
+19.symptoms:Nausea&Bloating&Dizziness
+ Disease:Drug allergy
+ Tablets:Antihistamine,Benadryl
+ Home Remedy:Turmeric,Dry gourd,Black pepper,Fodder
+ Doctor: Dr.Aruna
+
+call Add_tablets(19,'Drug allergy','Antihistamine,Benadryl','Turmeric,Dry gourd,Black pepper,Fodder','Dr.Aruna')
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ Disease:Heat cramps
+ Tablets:Cystelia M,Follicells,Feminine
+ Home Remedy:Raggi malt,drink more water,yogurt
+ Disease:Drug allergy
+ Tablets:Antihistamine,Benadryl
+ Home Remedy:Turmeric,Dry gourd,Black pepper,Fodder
+Disease:Drug allergy
+ Tablets:Antihistamine,Benadryl
+ Home Remedy:Turmeric,Dry gourd,Black pepper,Fodder
+Disease:Drug allergy
+ Tablets:Antihistamine,Benadryl
+ Home Remedy:Turmeric,Dry gourd,Black pepper,Fodder

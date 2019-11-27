@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	body{
+	background-image:url('{{ url_for('static', filename='images/img4.jpg') }}');
+	background-size:cover;
+	}
+	</style>
+</head>
+<body>
+<center>
+<table>
+<div class="DR.MYCIN=box"><br>
+<i><h1>DR.MYCIN</h1></i>
+<div class="textbox">
+<div>DESCRIPTION</div>
+<br>
+<br>
+Disease: <strong>{{ d }}</strong><br><br>
+Tablets: <strong>{{ t }}</strong><br><br>
+Homeremedy: <strong>{{ h }}</strong><br><br>
+Doctor: <strong>{{ dc }}</strong><br>
+<br>
+</div>
+<a href="/procedure"><h3>click here for procedure</h3></a>
+<form action="/symptoms">
+<center>
+<table>
+<button class="button">back</button><br>
+</form>
+</div>
+</table>
+</center>
+</body>
+</html>

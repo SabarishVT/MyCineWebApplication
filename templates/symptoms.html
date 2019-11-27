@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body{
+background-image:url('{{ url_for('static', filename='images/img4.jpg') }}');
+background-size:cover;
+}
+.button {
+background-color:#4CAF50;
+border: none;
+color: blue;
+padding: 10px 10px;
+text-align: center;
+font-size: 16px;
+cursor: pointer;
+}
+.button: hover {
+background-color: white;
+}
+</style>
+<body>
+<form action="/symptoms" method="POST">
+<center>
+<table>
+<div class="DR.MYCIN=box"><br>
+<i><h1>DR.MYCIN </h1></i>
+<i><h1>Add Symptoms </h1></i>
+<div class="textbox"><br>
+<div>ENTER YOUR SYMPTOMS</div>
+<select name = "symptoms" >
+<option value = "1" selected>Fever&Headache&Stomachache</option>
+<option value = "2">Stomachache&Nausea&Diarrhea</option>
+<option value = "3">Fatigue&Headche&Cold</option>
+<option value = "4">Fever&Headache&Cough</option>
+<option value = "5">Fever&Headache&Nausea</option>
+<option value = "6">Bloating&Stomachache&Diarrhea</option>
+<option value = "7">Muscle cramps&Stomachache&cold</option>
+<option value = "8">Headache&Stomachache&cough</option>
+<option value = "9">Headache&Stomachache&Nausea</option>
+<option value = "10">Headache&Stomachache&Dizziness</option>
+<option value = "11">Throat irritation&Cold&cough</option>
+<option value = "12">Headache&Cold&Dizziness&</option>
+<option value = "13">Headache&Cold&Nausea</option>
+<option value = "14">Headache&Nausea&Dizziness</option>
+<option value = "15">Nausea&Bloating&Anxiety</option>
+<option value = "16">Muscle cramps&Bloating&Dizziness</option>
+<option value = "17">Nausea&Bloating&Diarrhea</option>
+<option value = "18">Anxiety&Fatigue&Dizziness</option>
+<option value = "19">Nausea&Bloating&Dizziness</option>
+
+
+</select>
+
+
+
+</div><br>
+
+<button class="button">Continue</button><br>
+
+
+
+
+</form>
+
+</div>
+
+<form action="/">
+<center>
+<table>
+<br>
+<button class="button">Home</button>
+</form>
+
+</table>
+</center>
+
+
+
+</html>

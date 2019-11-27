@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type="text/css">
+body{
+background-image:url('{{ url_for('static', filename='images/img3.jpg') }}');
+background-size:cover;
+}
+
+.button {
+background-color:#4CAF50;
+border: none;
+color: blue;
+padding: 10px 10px;
+text-align: center;
+font-size: 16px;
+cursor: pointer;
+}
+.button: hover {
+background-color: white;
+}
+</style>
+
+<body>
+<form action="/checker" method="POST" >
+
+<center>
+<table>
+<div class="welcome=box"><br>
+<i><h1>WELCOME TO DR.MYCIN </h1></i>
+<i><h1>Symptom Checker</h1></i>
+<div class="textbox">
+<div>AGE</div>
+
+<input type="text" placeholder="AGE" name="age"><br>
+</div>
+
+<div class="textbox"><br>
+<div>GENDER</div>
+<select name = "Gender">
+<option value = "1" selected>MALE</option>
+<option value="2" >FEMALE</option>
+<option value = "3">OTHERS</option>
+</select>
+</div><br>
+
+<button class="button">Continue</button><br>
+</form>
+
+
+
+
+</div>
+
+
+
+</table>
+</center>
+
+
+
+</html>

@@ -1,0 +1,74 @@
+{% extends 'layout.html' %}
+{% block title %} Register {% endblock %}
+{% block content %}
+<form action="/register" method="POST">
+<center>
+<table>
+                 <div class="Register=box"><br>
+<i><h1>REGISTER</h1></i>
+
+<div class="textbox"><br>
+<div>USERNAME</div>
+<div>
+<input type="text" placeholder="NAME" name="name"value=""><br>
+</div>
+
+<div class="textbox"><br>
+<div>PASSWORD</div>
+<input type="Password" placeholder="PASSWORD" name="password"value=""><br>
+</div><br>
+
+
+<div class="textbox"><br>
+<div>AGE</div>
+<div>
+<input type="text" placeholder="AGE" name="age"value=""><br>
+</div>
+
+<div class="textbox"><br>
+<div>GENDER</div>
+<select name ="gender">
+<option selected value ="male">MALE</option>
+<option value="female">FEMALE</option>
+<option value="others">OTHERS</option>
+
+</select>
+
+</div>
+
+<div class="textbox"><br>
+<div>EMAIL</div>
+<input type="email" placeholder="EMAIL" name="email"><br>
+</div><br>
+
+<div class="textbox"><br>
+<div>ADDRESS</div>
+<div>
+<input type="text" placeholder="ADDRESS" name="address"><br>
+</div>
+
+<div class="textbox"><br>
+<div>PHONE NUMBER</div>
+<input type="text" placeholder="PHONE NUMBER" name="phone"><br>
+</div><br>
+
+<div class="textbox"><br>
+<div>COUNTRY</div>
+<div>
+<input type="text" placeholder="COUNTRY" name="country"><br>
+</div>
+
+
+</div><br>
+
+<button class="button">Register</button><br>
+</form>
+
+
+</div>
+
+
+
+</table>
+</center>
+{% endblock %}
