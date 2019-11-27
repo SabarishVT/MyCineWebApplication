@@ -169,7 +169,7 @@ __flask==1.1.1__
 
 __flask-mysqldb==0.2.0__
 
-##### for installing the requirement library, run the following commands in command prompt
+##### for installing the required library, run the following commands in command prompt
 
 `pip install -r requiremnts.txt`
 
